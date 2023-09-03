@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Lato:wght@700&family=Lexend:wght@300;400&family=Poppins:wght@600&family=Signika:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.body {
+  background-color: rgb(233, 233, 233);
+  height: 100vh;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar {
+  background-color: rgb(39, 38, 38);
+  margin: 0;
+}
+.centre {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0 25px;
+}
+
+.Linnk {
+  margin: 0 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.logoName {
+  margin: 4px;
+  font-size: 28px;
+  color: aliceblue;
+}
+.bar {
+  padding-top: 18px;
+}
+
+.input[type="text"] {
+  width: 300px;
+  padding: 8px 8px 8px 15px;
+  border: none;
+  background-color: white;
+  border-radius: 3px 0 0 3px;
+}
+.input[type="text"]:focus {
+  outline: 2px solid rgb(0, 89, 255);
+  border-radius: 3px;
+}
+.button {
+  color: white;
+  background-color: rgb(39, 38, 38);
+  padding: 7px 12px;
+  border: none;
+  border-radius: 0 3px 3px 0;
+}
+.button:focus {
+  outline: none;
+}
+.details {
+  background-color: white;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+.result{
+  padding: 25px;
+}
+.text{
+  font-weight: lighter;
+  font-size: 12px;
+  color: #505050;
+  line-height: 25px;
+}
+.mb-1{
+  margin: 0;
+  font-size: 15px;
+  border-radius: 0;
+}
+.search{
+  margin-left: 30px;
+  padding-top: 25px;
+}
+.st-1{
+  padding-top: 5px;
+}
+.set{
+  margin: 25px;
+  box-shadow: 0 0 10px 10px rgb(186, 185, 185);
+}
+.mb-2{
+  font-size: 13px;
+}
+
+@media (max-width: 767px) {
+  .centre {
+    font-size: 14px;
+    margin: 0 0px 0 15px;
+  }
+  .logoName {
+    font-size: 20px !important;
+  }
+  .link {
+    display: flex;
+    justify-content: right;
+    margin: 0;
+    padding: 0;
+  }
+  .input[type="text"] {
+    width: 240px;
+  }
+  .search{
+    margin-left: 20px;
+  }
+}
